@@ -3,6 +3,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import { Header } from "./components/Header";
 import { Home } from "./pages/Home";
 import { RiskForm } from "./pages/RiskForm";
+import { CameraAssessment } from "./pages/CameraAssessment";
 import { Results } from "./pages/Results";
 import { About } from "./pages/About";
 import { Explanations } from "./pages/Explanations";
@@ -17,6 +18,7 @@ function App() {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/assess" element={<RiskForm />} />
+          <Route path="/camera-assess" element={<CameraAssessment />} />
           <Route path="/results" element={<Results />} />
           <Route path="/about" element={<About />} />
           <Route path="/explanations" element={<Explanations />} />
