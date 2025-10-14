@@ -110,7 +110,7 @@ export const RiskForm = () => {
                   <Input
                     data-testid="name-input"
                     id="name"
-                    placeholder="Jane Doe"
+                    placeholder="Name"
                     value={formData.name}
                     onChange={(e) => setFormData({...formData, name: e.target.value})}
                     required
@@ -122,7 +122,7 @@ export const RiskForm = () => {
                     data-testid="age-input"
                     id="age"
                     type="number"
-                    placeholder="45"
+                    placeholder="age"
                     value={formData.age}
                     onChange={(e) => setFormData({...formData, age: e.target.value})}
                     required
