@@ -2,9 +2,6 @@
 
 A comprehensive web application for early-stage heart attack risk detection using machine learning and real-time vital sign monitoring via webcam integration.
 
-![Home Page](https://img.shields.io/badge/Status-Live-success)
-![Tech Stack](https://img.shields.io/badge/Stack-FastAPI%20%2B%20React%20%2B%20MongoDB-blue)
-
 ##  Features
 
 ### Core Functionality
