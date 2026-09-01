@@ -1,21 +1,21 @@
-# Early Heart Risk Detect 🫀
+# Early Heart Risk Detect 
 
 A comprehensive web application for early-stage heart attack risk detection using machine learning and real-time vital sign monitoring via webcam integration.
 
 ![Home Page](https://img.shields.io/badge/Status-Live-success)
 ![Tech Stack](https://img.shields.io/badge/Stack-FastAPI%20%2B%20React%20%2B%20MongoDB-blue)
 
-## 🌟 Features
+##  Features
 
 ### Core Functionality
-- ✅ **Comprehensive Risk Assessment**: Multi-factor health data collection
-- 📹 **Live Webcam Integration**: Real-time vital sign monitoring (rPPG simulation)
-- 🎯 **ML Risk Prediction**: Intelligent scoring algorithm analyzing 15+ parameters
-- 📊 **Interactive Results**: D3.js gauge visualization with color-coded risk bands
-- 🧠 **Explainable AI**: Detailed factor attribution showing what drives your score
-- 💾 **Data Persistence**: MongoDB storage for assessment history
-- 📱 **Responsive Design**: Mobile-first, works on all devices
-- 🎨 **Creative UI**: Artistic design with soft gradients and elegant typography
+-  **Comprehensive Risk Assessment**: Multi-factor health data collection
+-  **Live Webcam Integration**: Real-time vital sign monitoring (rPPG simulation)
+-  **ML Risk Prediction**: Intelligent scoring algorithm analyzing 15+ parameters
+-  **Interactive Results**: D3.js gauge visualization with color-coded risk bands
+-  **Explainable AI**: Detailed factor attribution showing what drives your score
+-  **Data Persistence**: MongoDB storage for assessment history
+-  **Responsive Design**: Mobile-first, works on all devices
+-  **Creative UI**: Artistic design with soft gradients and elegant typography
 
 ### Pages
 1. **Home** - Hero section with how-it-works cards
@@ -26,7 +26,7 @@ A comprehensive web application for early-stage heart attack risk detection usin
 6. **Tips** - Heart health recommendations
 7. **Contact** - Feedback form
 
-## 🛠 Tech Stack
+##  Tech Stack
 
 | Layer | Technology |
 |-------|-----------|
@@ -36,7 +36,7 @@ A comprehensive web application for early-stage heart attack risk detection usin
 | **ML** | Scikit-learn (rule-based MVP) |
 | **Deployment** | Docker, Kubernetes, Supervisor, Nginx |
 
-## 📡 API Endpoints
+##  API Endpoints
 
 ### POST `/api/assessment`
 Create new risk assessment
@@ -69,7 +69,7 @@ Retrieve specific assessment
 ### GET `/api/assessments`
 List all assessments
 
-## 🧮 Risk Calculation
+##  Risk Calculation
 
 **Weighted Scoring System:**
 
@@ -85,11 +85,11 @@ List all assessments
 | Symptoms | 3% each | Multiple symptoms compound |
 
 **Risk Bands:**
-- 🟢 **Low (0-39%)** - Continue healthy habits
-- 🟡 **Medium (40-69%)** - Lifestyle changes recommended
-- 🔴 **High (70-100%)** - Immediate medical attention
+-  **Low (0-39%)** - Continue healthy habits
+-  **Medium (40-69%)** - Lifestyle changes recommended
+-  **High (70-100%)** - Immediate medical attention
 
-## 🚀 Quick Start
+##  Quick Start
 
 ### Prerequisites
 - Python 3.9+
@@ -126,7 +126,7 @@ Uses WebRTC `getUserMedia` API:
 
 **Production**: Integrate real rPPG libraries (OpenCV, signal processing) for accurate vital extraction.
 
-## 🎨 Design System
+## Design System
 
 **Colors:**
 - Primary: `#0FA3B1` (Teal)
@@ -138,7 +138,7 @@ Uses WebRTC `getUserMedia` API:
 - Body: Figtree (sans-serif)
 - Numbers: Space Grotesk (monospace)
 
-## 📦 Project Structure
+##  Project Structure
 ```
 /app
 ├── backend/
@@ -156,7 +156,7 @@ Uses WebRTC `getUserMedia` API:
 └── README.md
 ```
 
-## 🔮 Future Enhancements
+##  Future Enhancements
 
 - [ ] Real ML models (Random Forest, XGBoost) on clinical datasets
 - [ ] Actual rPPG implementation for vital sign extraction
@@ -167,15 +167,15 @@ Uses WebRTC `getUserMedia` API:
 - [ ] Federated learning for privacy-preserving training
 - [ ] Mobile app (React Native)
 
-## ⚠️ Medical Disclaimer
+##  Medical Disclaimer
 
 **This application is for informational and educational purposes ONLY.** It should NOT replace professional medical advice, diagnosis, or treatment. Always consult qualified healthcare providers for medical concerns.
 
-## 📄 License
+##  License
 
 MIT License
 
-## 🤝 Support
+##  Support
 
 Questions? Use the Contact form in the app or email support@heartrisk.health
 
